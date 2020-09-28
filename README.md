@@ -12,3 +12,8 @@ For latest change details see:
 https://github.com/silvanmelchior/RPi_Cam_Web_Interface/commits/master
   
 This version has updates for php7.3 / Buster. May need further changes for nginx
+
+To Run any appliction on Auto start on boot of raspberry Pi 
+Just Open file:
+$ sudo nano /etc/profile
+and at the end add you command line than save and exit and restart your pi
